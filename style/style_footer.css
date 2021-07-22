@@ -1,0 +1,26 @@
+#footer {
+  height: 32px;
+  background-color: var(--Gray_20);
+  text-align: center;
+}
+
+.footer_text {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px;
+  color: var(--Gray_80);
+}
+
+html, body {
+  height: 100%;
+}
+
+.main-container {
+  min-height: 100%;
+  margin: 0 auto -32px;
+}
+
+.push {
+  height: 32px;
+}

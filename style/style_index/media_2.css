@@ -1,0 +1,39 @@
+/* 1024px ~ 1439px */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .section {
+    min-height: 600px;
+  }
+
+  .Home_text {
+    font-size: 40px;
+    line-height: 65px;
+    background-size: 390px 100px;
+  }
+
+  .Home_text_2 {
+    height: 600px;
+  }
+
+  .AboutMe_grid_left {
+    padding-right: 48px;
+
+  }
+
+  .AboutMe_grid_right {
+    padding-left: 48px;
+  }
+
+  #AboutMe_HeadGrid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: auto;
+  }
+
+  .Works_HeadThumbnail {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    height: auto;
+  }
+
+}

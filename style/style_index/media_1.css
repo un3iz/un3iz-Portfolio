@@ -1,0 +1,25 @@
+/* 1680px ~ */
+
+@media (min-width: 1680px) {
+  header {
+    padding: 0px 300px 0px 300px;
+  }
+
+  .Home_text_2 {
+    padding: 0px 300px 0px 300px;
+  }
+
+  #Home {
+    height: 800px;
+  }
+
+
+  #AboutMe {
+    height: 700px;
+  }
+
+  .Home_text_2 {
+    height: 800px;
+  }
+
+}

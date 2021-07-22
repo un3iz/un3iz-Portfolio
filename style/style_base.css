@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
+
+:root {
+  --Primary-Color : #FFDC14;
+  --Primary-Color-Point : #FFC700;
+  --Primary-Color_50 : #FFF087;
+  --Background_Gray : #FAFAFA;
+  --Gray_10 : #F0F0F0;
+  --Gray_20 : #E1E1E1;
+  --Gray_30 : #C8C8C8;
+  --Gray_50 : #828282;
+  --Gray_80 : #3C3C3C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body {
+  padding-top: 56px;
+  padding-bottom: 0px;
+}
+
+a {
+  color: black;
+}
+
+.fn-font {
+	font-family: 'Noto Sans KR', sans-serif;
+}

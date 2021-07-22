@@ -1,0 +1,39 @@
+/* 768px ~ 1023px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 0px 70px 0px 70px;
+  }
+
+  #main_section {
+    height: 600px;
+  }
+
+  #img_section {
+    height: 600px;
+  }
+
+  .container > img {
+    height: 600px;
+  }
+
+  .overlay {
+    height: 600px;
+  }
+
+  .Concept_group {
+    padding: 70px 0px 70px 0px;
+  }
+
+  .Concept_image_container > img {
+    padding: 0px 70px 0px 70px;
+  }
+
+  .Concept_content > .Concept_group {
+    padding-bottom: 100px;
+  }
+
+  .single_concept {
+    padding-bottom: 100px;
+  }
+}

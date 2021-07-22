@@ -1,0 +1,48 @@
+/* ~ 767px */
+
+@media (max-width: 767px) {
+  header {
+    padding: 0px 32px 0px 32px;
+  }
+
+  #main_section {
+    height: 400px;
+  }
+
+  #img_section {
+    height: 400px;
+  }
+
+  .container > img {
+    height: 400px;
+  }
+
+  .overlay {
+    height: 400px;
+  }
+
+  .Concept_group {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .Concept_image_container > img {
+    padding: 0px 32px 0px 32px;
+  }
+
+  .Concept_content > .Concept_group {
+    padding-bottom: 80px;
+  }
+
+  .single_concept {
+    padding-bottom: 80px;
+  }
+
+  .Concept_text > p {
+    font-size: 15px;
+  }
+
+  .Concept_text {
+    padding: 0px 56px 40px 56px;
+  }
+
+}

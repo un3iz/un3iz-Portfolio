@@ -1,0 +1,32 @@
+/* 1024px ~ 1439px */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #main_section {
+    height: 700px;
+  }
+
+  #img_section {
+    height: 700px;
+  }
+
+  .container > img {
+    height: 700px;
+  }
+
+  .overlay {
+    height: 700px;
+  }
+
+  .Concept_group {
+    padding: 70px 0px 70px 0px;
+  }
+
+  .Concept_content > .Concept_group {
+    padding-bottom: 100px;
+  }
+
+  .single_concept {
+    padding-bottom: 100px;
+  }
+
+}

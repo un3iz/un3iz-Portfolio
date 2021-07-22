@@ -1,0 +1,89 @@
+#Works {
+  background-color: var(--Gray_10);
+}
+
+.Works_HeadThumbnail {
+  padding: 100px 0px 130px 0px;
+}
+
+/*
+.Thumbnails_wrapper {
+  width: 216px;
+  height: 216px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #e0e0e0;
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid var(--Gray_50);
+}
+
+.Thumbnails_wrapper:hover {
+  transform: scale(1.1);
+  transition: .5s;
+  overflow: hidden;
+}
+*/
+
+.Thumbnails {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 16px;
+  justify-content: center;
+  padding: 64px 0px 20px 0px;
+}
+
+.Thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Thumbnails_wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 216px;
+  height: 216px;
+  border: 1px solid var(--Gray_50);
+}
+
+.Thumbnails_wrapper > img {
+  width: 216px;
+  height: 216px;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  padding: 20px;
+}
+
+.Thumbnails_wrapper:hover .overlay {
+  opacity: 0.6;
+}
+
+.Thumbnails_wrapper:hover img {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.overlay_text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  width: 174px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
