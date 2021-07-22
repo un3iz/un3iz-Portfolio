@@ -1,0 +1,141 @@
+/* ~ 767px */
+
+@media (max-width: 767px) {
+  header {
+    padding: 0px 16px 0px 16px;
+    height:40px;
+  }
+
+  header > h1 {
+    font-size:18px;
+  }
+
+  header ul > li {
+  	font-size:14px;
+  }
+
+  body {
+    padding-top: 40px;
+  }
+
+  .section {
+    min-height: 400px;
+  }
+
+  .Home_text {
+    font-size: 30px;
+    line-height: 48px;
+    background-size: 300px 80px;
+  }
+
+  .Home_text_2 {
+    height: 420px;
+    padding: 0px 16px 0px 16px;
+    font-size: 14px;
+  }
+
+  #AboutMe_HeadGrid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  .Works_HeadThumbnail {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .MiddleHead > h2 {
+    font-size: 32px;
+  }
+
+  .AboutMe_grid p {
+    font-size: 14px;
+  }
+
+  .SmallHead {
+    text-align: center;
+  }
+
+  .History {
+    padding-bottom: 40px;
+  }
+
+  .Contact {
+    padding-bottom: 40px;
+  }
+
+  .History_list > p {
+    display: block;
+    text-align: center;
+  }
+
+  .Contact_list > p {
+    display: block;
+    text-align: center;
+  }
+
+  .date {
+    width: auto;
+    text-align: center;
+    padding-bottom: 8px;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .Contact_Category {
+    width: auto;
+    text-align: center;
+    padding-bottom: 8px;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .History_list {
+    padding-bottom: 20px;
+  }
+
+  p.bar {
+    display: none;
+  }
+
+  .Skill_lists {
+    display: inline-block;
+  }
+
+  .AboutMe_grid {
+    padding: 40px;
+    display: inline-block;
+  }
+
+  .AboutMe_grid_left {
+    border-right: 0px;
+    padding-right: 0px;
+
+  }
+
+  .AboutMe_grid_right {
+    padding-left: 0px;
+  }
+
+  .Thumbnails {
+    grid-template-columns: auto auto;
+    grid-gap: 8px;
+    padding-top: 40px;
+  }
+
+  .Thumbnails_wrapper {
+    width: 170px;
+    height: 170px;
+  }
+
+  .Thumbnails_wrapper > img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .overlay_text {
+    font-size: 16px;
+  }
+
+}
