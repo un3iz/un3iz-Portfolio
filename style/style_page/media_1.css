@@ -1,0 +1,45 @@
+/* 1680px ~ */
+
+@media (min-width: 1680px) {
+  header {
+    padding: 0px 300px 0px 300px;
+  }
+
+  #main_section {
+    height: 900px;
+  }
+
+  #img_section {
+    height: 900px;
+  }
+
+  .container > img {
+    height: 900px;
+  }
+
+  .overlay {
+    height: 900px;
+  }
+
+  .Concept_group {
+    padding: 100px 0px 140px 0px;
+  }
+
+  .Concept_image_container > img {
+    padding: 0px 300px 0px 300px;
+  }
+/*
+  .Concept_content > .Concept_group {
+    padding-bottom: 140px;
+  }
+*/
+  .single_concept {
+    padding-bottom: 140px;
+  }
+
+  .up {
+    right:180px;
+  }
+
+
+}
