@@ -6,7 +6,7 @@
     height:40px;
   }
 
-  header > h1 {
+  h1 {
     font-size:18px;
   }
 
@@ -69,6 +69,16 @@
   .up img {
     width: 64px;
     height: 64px;
+  }
+
+  .arrow_back {
+  	display: inherit;
+    height: 115%;
+  }
+
+  .arrow_back img {
+  	width: 11px;
+  	height: 18px;
   }
 
 }
